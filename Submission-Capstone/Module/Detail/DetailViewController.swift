@@ -31,8 +31,10 @@ class DetailViewController: ASDKViewController<ASScrollNode> {
         
         super.init(node: ASScrollNode())
         
+        node.backgroundColor = .systemBackground
         node.automaticallyManagesSubnodes = true
         node.automaticallyManagesContentSize = true
+        node.scrollableDirections = .down
         
         node.layoutSpecBlock = { _, _ in
             
@@ -52,18 +54,14 @@ class DetailViewController: ASDKViewController<ASScrollNode> {
                 child: mainStack)
         }
     }
-    
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(true)
-        
-        checkIfAdded()
-    }
-   
+
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        checkIfAdded()
         bind()
         
+        navigationItem.largeTitleDisplayMode = .never
         navigationItem.rightBarButtonItem =
             UIBarButtonItem(image: UIImage(systemName: "heart"),
                             style: .plain,

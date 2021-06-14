@@ -15,7 +15,6 @@ class AppCoordinator {
     private var homeNavController: UINavigationController!
     private var searchNavController: UINavigationController!
     private var watchlistNavController: UINavigationController!
-    private var profileNavController: UINavigationController!
     
     init(window: UIWindow) {
         self.window = window
@@ -26,13 +25,11 @@ class AppCoordinator {
         setupHomeVC()
         setupSearchVC()
         setupWachlistVC()
-        setupProfileVC()
         
         tabBar.viewControllers = [
             homeNavController,
             searchNavController,
-            watchlistNavController,
-            profileNavController
+            watchlistNavController
         ]
                 
         window.rootViewController = tabBar
@@ -83,20 +80,6 @@ class AppCoordinator {
         watchlistNavController.navigationBar.isTranslucent = false
         watchlistNavController.navigationBar.prefersLargeTitles = true
         watchlistNavController.tabBarItem = UITabBarItem(title: "Watchlist", image: UIImage(systemName: "video"), tag: 2)
-    }
-    
-    private func setupProfileVC() {
-        
-        let profileInteractor = Injection.provideProfileUseCase()
-        let profilePresenter = ProfilePresenter(interactor: profileInteractor)
-        
-        let profileVC = ProfileViewController(presenter: profilePresenter)
-        profileVC.title = "Profile"
-        
-        profileNavController = UINavigationController(rootViewController: profileVC)
-        profileNavController.navigationBar.isTranslucent = false
-        profileNavController.navigationBar.prefersLargeTitles = true
-        profileNavController.tabBarItem = UITabBarItem(title: "Profile", image: UIImage(systemName: "person"), tag: 3)
     }
     
 }

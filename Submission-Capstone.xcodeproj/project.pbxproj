@@ -32,8 +32,6 @@
 		236BB7A4254BEEE400A9E04D /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BB7A3254BEEE400A9E04D /* SearchPresenter.swift */; };
 		236BB7A7254BEEEC00A9E04D /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BB7A6254BEEEC00A9E04D /* SearchViewController.swift */; };
 		236BB7AA254BEEF200A9E04D /* SearchRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BB7A9254BEEF200A9E04D /* SearchRouter.swift */; };
-		236BB7AD254BEEFC00A9E04D /* ProfilePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BB7AC254BEEFC00A9E04D /* ProfilePresenter.swift */; };
-		236BB7B0254BEF0700A9E04D /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BB7AF254BEF0700A9E04D /* ProfileViewController.swift */; };
 		236BB7B6254BEFA900A9E04D /* WatchlistPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BB7B5254BEFA900A9E04D /* WatchlistPresenter.swift */; };
 		236BB7BA254BEFB500A9E04D /* WatchlistViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BB7B9254BEFB500A9E04D /* WatchlistViewController.swift */; };
 		236BB7BD254BEFE200A9E04D /* WatchlistRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BB7BC254BEFE200A9E04D /* WatchlistRouter.swift */; };
@@ -41,9 +39,6 @@
 		236BB7C3254BF6B400A9E04D /* SearchMoviesRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BB7C2254BF6B400A9E04D /* SearchMoviesRepository.swift */; };
 		236BB7C6254BF78B00A9E04D /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 236BB7C5254BF78B00A9E04D /* SearchInteractor.swift */; };
 		237A758C254941AE00AD5C4C /* HomeRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 237A758B254941AE00AD5C4C /* HomeRouter.swift */; };
-		238674BB254D36E4008A8111 /* HighlightNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238674BA254D36E4008A8111 /* HighlightNode.swift */; };
-		238674BE254D3701008A8111 /* ProfileCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238674BD254D3701008A8111 /* ProfileCellNode.swift */; };
-		238674D8254D38C7008A8111 /* ProfileDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 238674D7254D38C7008A8111 /* ProfileDataSource.swift */; };
 		2393F10225559F8400089D1B /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393F10125559F8400089D1B /* MovieModel.swift */; };
 		2393F10525559F9200089D1B /* DetailModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393F10425559F9200089D1B /* DetailModel.swift */; };
 		2393F10825559F9700089D1B /* ProfileModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2393F10725559F9700089D1B /* ProfileModel.swift */; };
@@ -61,11 +56,7 @@
 		23D478D625480D5C00958D99 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 23D478D525480D5C00958D99 /* RxSwift */; };
 		23D478DB25480F5E00958D99 /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = 23D478DA25480F5E00958D99 /* Alamofire */; };
 		23D478E02548105400958D99 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 23D478DF2548105400958D99 /* .swiftlint.yml */; };
-		23EAFF7E254D39860076DAB3 /* ProfileResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAFF7D254D39860076DAB3 /* ProfileResponse.swift */; };
-		23EAFF81254D399A0076DAB3 /* ProfileEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAFF80254D399A0076DAB3 /* ProfileEntity.swift */; };
 		23EAFF84254D3A370076DAB3 /* UserDefaultService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAFF83254D3A370076DAB3 /* UserDefaultService.swift */; };
-		23EAFF89254D3D710076DAB3 /* ProfileRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAFF88254D3D710076DAB3 /* ProfileRepository.swift */; };
-		23EAFF9E254D47440076DAB3 /* ProfileInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23EAFF9D254D47440076DAB3 /* ProfileInteractor.swift */; };
 		23F55264254A69700086BB62 /* MediumSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F55263254A69700086BB62 /* MediumSection.swift */; };
 		23F55268254A6A1B0086BB62 /* MediumCollectionNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F55267254A6A1B0086BB62 /* MediumCollectionNode.swift */; };
 		23F5526B254A6A260086BB62 /* MediumCellNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23F5526A254A6A260086BB62 /* MediumCellNode.swift */; };
@@ -116,8 +107,6 @@
 		236BB7A3254BEEE400A9E04D /* SearchPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
 		236BB7A6254BEEEC00A9E04D /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		236BB7A9254BEEF200A9E04D /* SearchRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRouter.swift; sourceTree = "<group>"; };
-		236BB7AC254BEEFC00A9E04D /* ProfilePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePresenter.swift; sourceTree = "<group>"; };
-		236BB7AF254BEF0700A9E04D /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		236BB7B5254BEFA900A9E04D /* WatchlistPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistPresenter.swift; sourceTree = "<group>"; };
 		236BB7B9254BEFB500A9E04D /* WatchlistViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistViewController.swift; sourceTree = "<group>"; };
 		236BB7BC254BEFE200A9E04D /* WatchlistRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchlistRouter.swift; sourceTree = "<group>"; };
@@ -125,9 +114,6 @@
 		236BB7C2254BF6B400A9E04D /* SearchMoviesRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchMoviesRepository.swift; sourceTree = "<group>"; };
 		236BB7C5254BF78B00A9E04D /* SearchInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
 		237A758B254941AE00AD5C4C /* HomeRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeRouter.swift; sourceTree = "<group>"; };
-		238674BA254D36E4008A8111 /* HighlightNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HighlightNode.swift; sourceTree = "<group>"; };
-		238674BD254D3701008A8111 /* ProfileCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileCellNode.swift; sourceTree = "<group>"; };
-		238674D7254D38C7008A8111 /* ProfileDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileDataSource.swift; sourceTree = "<group>"; };
 		2393F10125559F8400089D1B /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 		2393F10425559F9200089D1B /* DetailModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailModel.swift; sourceTree = "<group>"; };
 		2393F10725559F9700089D1B /* ProfileModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileModel.swift; sourceTree = "<group>"; };
@@ -144,11 +130,7 @@
 		23D478BD25480B1A00958D99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		23D478BF25480B1A00958D99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		23D478DF2548105400958D99 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; path = .swiftlint.yml; sourceTree = "<group>"; };
-		23EAFF7D254D39860076DAB3 /* ProfileResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileResponse.swift; sourceTree = "<group>"; };
-		23EAFF80254D399A0076DAB3 /* ProfileEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEntity.swift; sourceTree = "<group>"; };
 		23EAFF83254D3A370076DAB3 /* UserDefaultService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultService.swift; sourceTree = "<group>"; };
-		23EAFF88254D3D710076DAB3 /* ProfileRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileRepository.swift; sourceTree = "<group>"; };
-		23EAFF9D254D47440076DAB3 /* ProfileInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileInteractor.swift; sourceTree = "<group>"; };
 		23F55263254A69700086BB62 /* MediumSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumSection.swift; sourceTree = "<group>"; };
 		23F55267254A6A1B0086BB62 /* MediumCollectionNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumCollectionNode.swift; sourceTree = "<group>"; };
 		23F5526A254A6A260086BB62 /* MediumCellNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MediumCellNode.swift; sourceTree = "<group>"; };
@@ -211,7 +193,6 @@
 			children = (
 				23674E8A2548283F00AB7EEC /* MovieResponse.swift */,
 				23F552AF254A970D0086BB62 /* DetailMovieResponse.swift */,
-				23EAFF7D254D39860076DAB3 /* ProfileResponse.swift */,
 			);
 			path = Responses;
 			sourceTree = "<group>";
@@ -259,7 +240,6 @@
 			children = (
 				23674E862548275200AB7EEC /* MovieEntity.swift */,
 				23F552B6254A9B640086BB62 /* DetailEntity.swift */,
-				23EAFF80254D399A0076DAB3 /* ProfileEntity.swift */,
 				23647CB62555326800E6C11A /* WatchlistEntity.swift */,
 			);
 			path = Model;
@@ -281,7 +261,6 @@
 				23B9D1F0254AEDEE00A5DAAD /* SeeAllInteractor.swift */,
 				236BB7C5254BF78B00A9E04D /* SearchInteractor.swift */,
 				236ACDF0254C552500A73E1B /* WatchlistInteractor.swift */,
-				23EAFF9D254D47440076DAB3 /* ProfileInteractor.swift */,
 			);
 			path = Interactor;
 			sourceTree = "<group>";
@@ -306,16 +285,6 @@
 			path = Favorite;
 			sourceTree = "<group>";
 		};
-		236BB7A0254BEEBC00A9E04D /* Profile */ = {
-			isa = PBXGroup;
-			children = (
-				236BB7AC254BEEFC00A9E04D /* ProfilePresenter.swift */,
-				236BB7AF254BEF0700A9E04D /* ProfileViewController.swift */,
-				238674B9254D36CE008A8111 /* Components */,
-			);
-			path = Profile;
-			sourceTree = "<group>";
-		};
 		236BB7A1254BEEC100A9E04D /* Search */ = {
 			isa = PBXGroup;
 			children = (
@@ -324,15 +293,6 @@
 				236BB7A9254BEEF200A9E04D /* SearchRouter.swift */,
 			);
 			path = Search;
-			sourceTree = "<group>";
-		};
-		238674B9254D36CE008A8111 /* Components */ = {
-			isa = PBXGroup;
-			children = (
-				238674BA254D36E4008A8111 /* HighlightNode.swift */,
-				238674BD254D3701008A8111 /* ProfileCellNode.swift */,
-			);
-			path = Components;
 			sourceTree = "<group>";
 		};
 		2393F0FF25559F7600089D1B /* Models */ = {
@@ -414,7 +374,6 @@
 				23D478CE25480CA700958D99 /* Home */,
 				236BB7A1254BEEC100A9E04D /* Search */,
 				236BB79F254BEEA600A9E04D /* Favorite */,
-				236BB7A0254BEEBC00A9E04D /* Profile */,
 				23F552A8254A94270086BB62 /* Detail */,
 				23B9D1E4254AEC8F00A5DAAD /* SeeAllView */,
 				235933832549B2CE00A70291 /* Reusables */,
@@ -460,7 +419,6 @@
 				23674E8D2548289500AB7EEC /* RemoteDataSource.swift */,
 				236BB7BF254BF4F500A9E04D /* SearchDataSource.swift */,
 				23F552B3254A98E50086BB62 /* DetailDataSource.swift */,
-				238674D7254D38C7008A8111 /* ProfileDataSource.swift */,
 				236ACDE8254C523B00A73E1B /* WatchlistDataSource.swift */,
 			);
 			path = DataSources;
@@ -533,7 +491,6 @@
 				23F552B9254A9C100086BB62 /* DetailMovieRepository.swift */,
 				236BB7C2254BF6B400A9E04D /* SearchMoviesRepository.swift */,
 				236ACDEB254C542A00A73E1B /* WatchlistRepository.swift */,
-				23EAFF88254D3D710076DAB3 /* ProfileRepository.swift */,
 			);
 			path = Repositories;
 			sourceTree = "<group>";
@@ -708,25 +665,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				23EAFF81254D399A0076DAB3 /* ProfileEntity.swift in Sources */,
 				23B9D1F1254AEDEE00A5DAAD /* SeeAllInteractor.swift in Sources */,
-				23EAFF9E254D47440076DAB3 /* ProfileInteractor.swift in Sources */,
 				23F5528A254A8BCC0086BB62 /* GridCollectionNode.swift in Sources */,
 				236ACDF1254C552500A73E1B /* WatchlistInteractor.swift in Sources */,
 				23F5528D254A8BD40086BB62 /* GridCellNode.swift in Sources */,
 				236BB799254BE55300A9E04D /* MiddleNode.swift in Sources */,
 				236BB795254BE53300A9E04D /* Array+ext.swift in Sources */,
 				23944EFB254C751700B0D67C /* HapticService.swift in Sources */,
-				238674BE254D3701008A8111 /* ProfileCellNode.swift in Sources */,
 				236BB791254BC7E900A9E04D /* TopNode.swift in Sources */,
 				236BB7C6254BF78B00A9E04D /* SearchInteractor.swift in Sources */,
-				238674D8254D38C7008A8111 /* ProfileDataSource.swift in Sources */,
 				236BB7C0254BF4F500A9E04D /* SearchDataSource.swift in Sources */,
 				2359338A2549B5A600A70291 /* LargeCellNode.swift in Sources */,
 				2359337D2549A64D00A70291 /* Injection.swift in Sources */,
 				236BB78D254BC17400A9E04D /* String+ext.swift in Sources */,
 				23F55264254A69700086BB62 /* MediumSection.swift in Sources */,
-				23EAFF7E254D39860076DAB3 /* ProfileResponse.swift in Sources */,
 				23F5526F254A6E830086BB62 /* NSAttributedString+ext.swift in Sources */,
 				23F552B0254A970D0086BB62 /* DetailMovieResponse.swift in Sources */,
 				23D478B625480B1800958D99 /* HomeViewController.swift in Sources */,
@@ -735,8 +687,6 @@
 				23F7DD0D254C350800D86A2B /* Submission-Capstone.xcdatamodeld in Sources */,
 				2393F10525559F9200089D1B /* DetailModel.swift in Sources */,
 				236BB7C3254BF6B400A9E04D /* SearchMoviesRepository.swift in Sources */,
-				238674BB254D36E4008A8111 /* HighlightNode.swift in Sources */,
-				23EAFF89254D3D710076DAB3 /* ProfileRepository.swift in Sources */,
 				236BB7A7254BEEEC00A9E04D /* SearchViewController.swift in Sources */,
 				23F7DD01254C26D400D86A2B /* UIView+ext.swift in Sources */,
 				23F552BA254A9C100086BB62 /* DetailMovieRepository.swift in Sources */,
@@ -748,7 +698,6 @@
 				23EAFF84254D3A370076DAB3 /* UserDefaultService.swift in Sources */,
 				236BB7A4254BEEE400A9E04D /* SearchPresenter.swift in Sources */,
 				23F5526B254A6A260086BB62 /* MediumCellNode.swift in Sources */,
-				236BB7AD254BEEFC00A9E04D /* ProfilePresenter.swift in Sources */,
 				23674E9A25482E4700AB7EEC /* HomeInteractor.swift in Sources */,
 				23647CB72555326800E6C11A /* WatchlistEntity.swift in Sources */,
 				2393F10225559F8400089D1B /* MovieModel.swift in Sources */,
@@ -768,7 +717,6 @@
 				236ACDEC254C542A00A73E1B /* WatchlistRepository.swift in Sources */,
 				23674E9525482DB700AB7EEC /* MovieMapper.swift in Sources */,
 				237A758C254941AE00AD5C4C /* HomeRouter.swift in Sources */,
-				236BB7B0254BEF0700A9E04D /* ProfileViewController.swift in Sources */,
 				23674E872548275200AB7EEC /* MovieEntity.swift in Sources */,
 				23674E9125482AE500AB7EEC /* MoviesRepository.swift in Sources */,
 				2393F10825559F9700089D1B /* ProfileModel.swift in Sources */,

@@ -41,13 +41,5 @@ class Injection {
         
         return watchlistUseCase
     }
-    
-    static func provideProfileUseCase() -> ProfileUseCase {
-        let remote = ProfileDataSource.shared
-        let repository = ProfileRepository.sharedInstance(remote)
-        let profileUseCase = ProfileInteractor(repository: repository)
-        
-        return profileUseCase
-    }
-    
+
 }
